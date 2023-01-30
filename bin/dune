@@ -3,3 +3,7 @@
  (public_name doi2bib)
  (libraries cmdliner doi2bib re unix)
  (preprocess future_syntax))
+
+(env
+  (static
+    (flags :standard -cclib -static)))

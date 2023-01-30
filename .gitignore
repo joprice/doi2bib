@@ -38,3 +38,4 @@ _ocamltestd
 .merlin
 _build
 *.install
+result
